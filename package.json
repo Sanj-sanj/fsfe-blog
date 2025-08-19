@@ -1,12 +1,15 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "main": "blog.js",
+  "name": "fsfe-blog",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@astrojs/node": "^9.4.2",
+    "astro": "^5.13.2"
+  }
 }

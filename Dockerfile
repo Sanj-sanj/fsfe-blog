@@ -6,4 +6,4 @@ USER node
 RUN npm install
 COPY --chown=node:node . .
 EXPOSE 3002
-CMD ["node", "blog.js"]
+CMD ["npm", "run", "PORT=3002","./dist/server/entry.mjs"]
